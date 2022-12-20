@@ -3,11 +3,13 @@
 #include<time.h>
 #include<iostream>
 using namespace std;
-int num1, num2, result, pm;
+int num1, num2, result, pm, ans;
 char artimatic;
 int main() {
 	srand(time(NULL));
 	random();
+	printf("%d %c %d = ", num1, artimatic, num2);
+	scanf("%d", &ans);
 }
 
 void random() {
